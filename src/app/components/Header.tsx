@@ -28,7 +28,7 @@ export default function Header() {
           </h1>
           <p className="mt-3 text-base md:text-lg text-center max-w-[270px] leading-snug">
             I enjoy traveling, spending time with friends, and studying
-            full-stack development when I'm not working.
+            full-stack development when I&apos;m not working.
           </p>
         </div>
 

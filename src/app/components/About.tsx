@@ -39,13 +39,13 @@ export default function About() {
           </div>
 
           <p className="text-lg">
-            I've studied various web development languages (all listed
+            I&apos;ve studied various web development languages (all listed
             underneath) and excel in front-end development. Currently, I am
             practicing with Next.js and learning about AWS. I wish to study
             back-end development as well so I can own a startup.
           </p>
           <p className="text-lg">
-            I'm looking for an opportunity to start my career in Web
+            I&apos;m looking for an opportunity to start my career in Web
             Development. I enjoy learning Web Development and hope to master
             everything there is to being a full-stack developer. Ideally, I
             would like a position where I can work front-end while studying the
