@@ -30,9 +30,8 @@ export default function About() {
   return (
     <div id="about" className="py-12 bg-white text-black scroll-mt-24">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-6">
-        {/* Left Side - Story & Skills */}
+        {/* Left Side */}
         <div className="space-y-6">
-          {/* Title with decorative line */}
           <div className="space-y-4">
             <h2 className="text-4xl font-bold text-yellow-500">About</h2>
             <div className="w-16 h-1 bg-yellow-500 rounded-full"></div>
@@ -52,7 +51,7 @@ export default function About() {
             back-end.
           </p>
 
-          {/* SDK Icons Grid with Labels */}
+          {/* SDK Icons */}
           <div className="grid grid-cols-5 gap-6 text-center text-lg">
             <div className="flex flex-col items-center">
               <FaJava className="text-orange-500 text-4xl" />
@@ -97,13 +96,11 @@ export default function About() {
           </div>
         </div>
 
-        {/* Right Side - Carousel */}
+        {/* Carousel */}
         <div className="w-full flex justify-center items-center">
           {" "}
-          {/* Center vertically and horizontally */}
           <div className="w-full max-w-lg">
             {" "}
-            {/* Constrain carousel width */}
             <Swiper
               modules={[Autoplay, Pagination]}
               spaceBetween={20}
@@ -112,9 +109,9 @@ export default function About() {
               pagination={{
                 clickable: true,
                 el: ".swiper-pagination",
-                bulletClass: "swiper-pagination-bullet !bg-yellow-500", // Yellow dots
+                bulletClass: "swiper-pagination-bullet !bg-yellow-500",
                 bulletActiveClass:
-                  "swiper-pagination-bullet-active !bg-yellow-500", // Active dot
+                  "swiper-pagination-bullet-active !bg-yellow-500",
               }}
               className="relative h-full"
             >
@@ -127,7 +124,6 @@ export default function About() {
                   {/* Center slide content */}
                   <div className="p-6 bg-black rounded-lg shadow-lg w-64 h-64 mx-auto">
                     {" "}
-                    {/* Centered box */}
                     <div className="relative w-full h-48">
                       <Image
                         src={cert.src}
@@ -142,9 +138,7 @@ export default function About() {
                   </div>
                 </SwiperSlide>
               ))}
-              {/* Pagination Dots Container */}
               <div className="swiper-pagination mt-8 !bottom-0" />{" "}
-              {/* Force dots to bottom */}
             </Swiper>
           </div>
         </div>

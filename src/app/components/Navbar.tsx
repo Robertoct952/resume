@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="bg-black text-white shadow-md w-full fixed top-0 z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        {/* Left Side: Profile Image & Resume Text */}
+        {/* Left Side */}
         <Link
           href="/"
           className="flex items-center space-x-2 hover:text-yellow-500 transition"
@@ -27,7 +27,7 @@ export default function Navbar() {
           <span className="text-xl font-semibold">Roberto Torres</span>
         </Link>
 
-        {/* Right Side: Navigation Links */}
+        {/* Right Side */}
         <div className="hidden md:flex space-x-6 items-center">
           <Link href="#about" className="hover:text-yellow-500 transition">
             About
