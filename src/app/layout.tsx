@@ -1,15 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, Source_Code_Pro } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
 const inter = Inter({
   variable: "--font-inter",
-  subsets: ["latin"],
-});
-
-const sourceCodePro = Source_Code_Pro({
-  variable: "--font-source-code",
   subsets: ["latin"],
 });
 
@@ -24,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${sourceCodePro.variable}`}>
+    <html lang="en" className={`${inter.variable} `}>
       <body className="bg-gray-100 text-gray-900 font-sans mt-4">
         <Navbar />
         {children}

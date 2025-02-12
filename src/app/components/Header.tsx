@@ -43,6 +43,9 @@ export default function Header() {
             autoplay={{ delay: 3000 }}
             pagination={{ clickable: true }}
             className="w-full h-[300px] md:h-[550px]"
+            style={{
+              "--swiper-pagination-color": "#FFF500",
+            }}
           >
             {[
               "/images/temple.jpeg",

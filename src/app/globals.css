@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --font-sans: var(--font-inter);
-    --font-mono: var(--font-source-code);
-  }
-
-  body {
-    font-family: var(--font-sans);
-  }
-
-  code, pre {
-    font-family: var(--font-mono);
-  }
-}
-
 html {
   scroll-behavior: smooth;
 }
