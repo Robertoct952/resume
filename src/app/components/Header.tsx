@@ -44,6 +44,7 @@ export default function Header() {
             pagination={{ clickable: true }}
             className="w-full h-[300px] md:h-[550px]"
             style={{
+              // @ts-ignore
               "--swiper-pagination-color": "#FFF500",
             }}
           >
