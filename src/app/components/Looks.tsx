@@ -20,7 +20,7 @@ export default function Looks() {
         loop={true}
         modules={[Navigation, Pagination]}
         style={{
-          // @ts-ignore
+          //@ts-expect-error style pagination
           "--swiper-navigation-color": "#ffff",
           "--swiper-pagination-color": "#ffff",
           "--swiper-pagination-bottom": "0px",
